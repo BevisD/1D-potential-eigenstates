@@ -9,4 +9,5 @@ is only exactly solvable for a small number of conditions. The aim of this proje
 ## Theory
 The time-independent schrodinger equation can be put into discrete form. After setting $\hbar=1$ to set the units of the system, the resulting equation is obtained.
 $$\large\frac{-1}{2m}\frac{\psi_{i+1}-2\psi_i+\psi_{i-1}}{(\Delta x)^2} + V(x)\psi_i = E\psi_i$$
-This leads to a system of $N$ simultaneous equations. Setting the boundary conditions as $\psi(0) = 0, \psi(L) = 0$  (to force the states to be bound), we can represent this system as a $(N-1)*(N-1)$ matrix eigenvector equation.
+This leads to a system of $N$ simultaneous equations. Setting the boundary conditions as $\psi(0) = 0, \psi(L) = 0$  (to force the states to be bound), we can represent this system as a $(N-1)*(N-1)$ matrix eigenvector equation. The eigenvalues of this equation are the energies $E_n$ of each state.\
+<img src="https://user-images.githubusercontent.com/59290670/192154037-f14b00ab-a8fd-491a-bfeb-5c443239cb4f.png" width=400>
